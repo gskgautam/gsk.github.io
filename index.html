@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="Gautam Siddharth Kashyap | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+  <meta name="keywords" 
+      content="gautam kashyap, gautam kashyap portfolio, Gautam Siddharth Kashyap Portfolio, gskgautam, gautam kashyap site, Gautam Kashyap site, gautam kashyap me, gautam kashyap web, gautam kashyap github, gskgautam site, gskgautam uiverse, uiverse, gautam kashyap uiverse, gautam kashyap frontend developer, frontend developer, gautam kashyap delhi, gautam delhi">
+  <meta name="author" content="Gautam Siddharth Kashyap" />
+  
+  <!-- **** IMPORTANT: ADD AFTER  PRODUCTION  PREVIEW **** -->
+  
+  <meta property="og:title" content="Gautam Siddharth Kashyap | Portfolio" />
+  <meta property="og:description"
+    content="Hi! My name is Gautam. I am a passionate research scholar with expertise in real-world optimization, metaheuristics, and advanced AI methodologies. Dedicated to developing innovative solutions, my work bridges academia and industry in agriculture, healthcare, and security." />
+
+  <meta property="og:url" content="https://anasazeez.github.io" />
+  <meta property="og:site_name" content="Gautam Siddharth Kashyap Portfolio" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@gautamSkashyap" />
+  <meta name="twitter:title" content="Gautam Siddharth Kashyap | Portfolio" />
+  <meta name="twitter:description"
+  content="Hi! My name is Gautam. I’m a research scholar and AI enthusiast, passionate about real-world optimization and machine learning. Explore my work to see how I merge innovative thinking, data-driven insights, and practical solutions to tackle challenging problems. I value clear communication, thoughtful experimentation, and purposeful design in all my projects." />
+  
+  <!-- **** IMPORTANT: ADD AFTER  PRODUCTION  PREVIEW **** -->
+  
+  <title>Gautam Siddharth Kashyap | Portfolio</title>
+  
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+<style>
+  /* Add this CSS to push the landing page content below the fixed navbar */
+  .landing-page-container {
+    margin-top: 80px; /* Adjust this value as needed */
+  }
+</style>
+
+
+
+  
+<body class="body">
+  
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      
+      
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          
+
+          <li class="about navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+         <a href="#about" aria-label="about menu button">
+           &#60;/AboutMe&#62;
+            </a>
+            </li>
+
+          <li class="education" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#education" aria-label="education menu button">
+              &#60;/Education&#62;
+            </a>
+          </li>
+          <li class="experience" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#experience" aria-label="experience menu button">
+              &#60;/Experience&#62;
+            </a>
+          </li>
+          
+
+          <li class="publications" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#publications-dropdown" aria-label="publications menu button">
+              &#60;/Publications&#62;
+            </a>
+          </li>
+          <li class="reviewer" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#reviewer" aria-label="reviewer menu button">
+              &#60;/Reviewer&#62;
+            </a>
+          </li>
+          <li class="Certification" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#Certification" aria-label="certification menu button">
+              &#60;/Certifications&#62;
+            </a>
+          </li>
+          <li class="honours&awards" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500" style = "white-space: nowrap;" >
+            <a href="#honours&awards" aria-label="honours&awards menu button">
+              &#60;/Honours & Awards&#62;
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &#60;/AboutMe&#62;
+          </a>
+        </li>
+        <li id="education-mobile-tab" class="mobile-navbar-tabs-li education" onclick="hidemenubyli()">
+          <a href="#education" tabindex="0" aria-label="education menu button">
+            &#60;/Education&#62;
+          </a>
+        </li>
+        <li id="experience-mobile-tab" class="mobile-navbar-tabs-li experience" onclick="hidemenubyli()">
+          <a href="#experience" tabindex="0" aria-label="experience menu button">
+            &#60;/Experience&#62;
+          </a>
+        </li>
+        
+        <li id="publications-mobile-tab" class="publications-navbar-tabs-li reviewer" onclick="hidemenubyli()">
+          <a href="#publications-dropdown" tabindex="0" aria-label="publications menu button">
+            &#60;/Publications&#62;
+          </a>
+        </li>
+
+        <li id="reviewer-mobile-tab" class="mobile-navbar-tabs-li reviewer" onclick="hidemenubyli()">
+          <a href="#reviewer" tabindex="0" aria-label="reviewer menu button">
+            &#60;/Reviewer&#62;
+          </a>
+        </li>
+        <li id="Certification-mobile-tab" class="mobile-navbar-tabs-li Certification" onclick="hidemenubyli()">
+          <a href="#Certification" tabindex="0" aria-label="Certification menu button">
+            &#60;/Certifications&#62;
+          </a>
+        </li>
+        <li id="honours&awards-mobile-tab" class="mobile-navbar-tabs-li honours&awards" onclick="hidemenubyli()">
+          <a href="#honours&awards" tabindex="0" aria-label="honours&awards menu button">
+            &#60;/Honours & Awards&#62;
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">H</p>
+          <p class="jello">e</p>
+          <p class="jello">l</p>
+          <p class="jello">l</p>
+          <p class="jello">o</p>
+          <p class="jello">(</p>
+          <p class="jello">)</p>
+          <p class="jello">;</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">G</p>
+          <p class="jello">a</p>
+          <p class="jello">u</p>
+          <p class="jello">t</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          &nbsp;
+          <p class="jello">K</p>
+          <p class="jello">a</p>
+          <p class="jello">s</p>
+          <p class="jello">h</p>
+          <p class="jello">y</p>
+          <p class="jello">a</p>
+          <p class="jello">p</p>
+          <p class="jello">.</p>
+      </article>
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <!-- First Word: "Optimizing," -->
+          <div>
+            <p class="jello">O</p>
+            <p class="jello">p</p>
+            <p class="jello">t</p>
+            <p class="jello">i</p>
+            <p class="jello">m</p>
+            <p class="jello">i</p>
+            <p class="jello">z</p>
+            <p class="jello">i</p>
+            <p class="jello">n</p>
+            <p class="jello">g</p>
+            <p class="jello">,</p>
+          </div>
+          <!-- Second Word: "Innovating," -->
+          <div>
+            <p class="jello">I</p>
+            <p class="jello">n</p>
+            <p class="jello">n</p>
+            <p class="jello">o</p>
+            <p class="jello">v</p>
+            <p class="jello">a</p>
+            <p class="jello">t</p>
+            <p class="jello">i</p>
+            <p class="jello">n</p>
+            <p class="jello">g</p>
+            <p class="jello">,</p>
+          </div>
+          <!-- Third Word: "and" -->
+          <div>
+            <p class="jello">a</p>
+            <p class="jello">n</p>
+            <p class="jello">d</p>
+          </div>
+          <!-- Fourth Word: "Inspiring." -->
+          <div>
+            <p class="jello">I</p>
+            <p class="jello">n</p>
+            <p class="jello">s</p>
+            <p class="jello">p</p>
+            <p class="jello">i</p>
+            <p class="jello">r</p>
+            <p class="jello">i</p>
+            <p class="jello">n</p>
+            <p class="jello">g</p>
+            <p class="jello">.</p>
+          </div>
+          
+        </article>
+ 
+        </div>
+        <!-- Container that holds all buttons -->
+<div class="contact-btn-div" style="display: flex; gap: 20px; align-items: center;">
+  
+  <!-- "Let's Talk!" Button -->
+  <a href="mailto:gautamgsk.gsk@gmail.com" tabindex="-1">
+    <button class="letsTalkBtn">
+      <p class="letsTalkBtn-text">Let's Talk!</p>
+      <span class="letsTalkBtn-BG"></span>
+    </button>
+  </a>
+
+  <!-- Scholar Button -->
+  <a href="https://scholar.google.com/citations?hl=en&user=p8cdsVoAAAAJ" target="_blank" tabindex="-1">
+    <button class="letsTalkBtn">
+      <!-- Icon (SVG or PNG) -->
+      <img 
+        src="src/svg/googlescholar.svg" 
+        alt="Scholar Icon" 
+        style="width: 20px; height: 20px;"
+      />
+      <!-- Text -->
+      <p class="letsTalkBtn-text">Scholar</p>
+      <!-- Gradient Background Span -->
+      <span class="letsTalkBtn-BG"></span>
+    </button>
+  </a>
+
+  <!-- ORCID Button -->
+  <a href="https://orcid.org/0000-0003-2140-9617" target="_blank" tabindex="-1">
+    <button class="letsTalkBtn">
+      <img 
+        src="src/svg/orcid.svg" 
+        alt="ORCID Icon" 
+        style="width: 20px; height: 20px;"
+      />
+      <p class="letsTalkBtn-text">ORCID</p>
+      <span class="letsTalkBtn-BG"></span>
+    </button>
+  </a>
+
+  <!-- LinkedIn Button (Inline SVG example) -->
+  <a href="https://www.linkedin.com/in/gautam-kashyap-48021b159/" target="_blank" tabindex="-1">
+    <button class="letsTalkBtn">
+      <svg viewBox="0 0 128 128" style="width: 20px; height: 20px;">
+        <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
+      </svg>
+      <p class="letsTalkBtn-text">LinkedIn</p>
+      <span class="letsTalkBtn-BG"></span>
+    </button>
+  </a>
+
+</div>
+         
+       
+     
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/AboutMe&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              Currently, a PhD student at Macquarie University (Sydney, Australia), Gautam is passionate about innovation and solving real-world challenges through cutting-edge technologies. 
+              In his PhD journey, Gautam is driven by the potential of LLM alignment to create socially beneficial AI systems that are robust, explainable, and aligned with human values. 
+              This research intersects with his ongoing interests in machine learning applications, secure computing, and metaheuristic optimization, paving the way for impactful contributions in AI ethics, multimodal systems, and practical AI adoption in critical fields.
+            </p>
+            <br />
+            <p tabindex="0">
+              Born and raised in New Delhi, India, he has always demonstrated a strong inclination toward learning and self-improvement. 
+              His entrepreneurial mindset and creative problem-solving approach drive him to seek unconventional solutions to complex optimization problems, particularly in the realms of metaheuristic optimization and explainable AI. 
+              Gautam earned a Bachelor's degree in Computer Science with the highest GPA in his class and completed a Master's degree in Computer Applications. 
+              His Master’s thesis on optimizing Artificial Neural Network (ANN) training using metaheuristics was published, reflecting his exceptional research capabilities.
+              With a diverse portfolio of publications, his work has been featured in SCI, ESCI, and Scopus-indexed journals Additionally, he has co-authored several book chapters published by CRC Press and Springer. 
+              His innovative methodologies have been presented at high-impact conferences such as ICASSP (IEEE), EUSIPCO (IEEE), Interspeech, and NAACL, reflecting his contributions to machine learning applications and multimodal analysis.
+            </p>
+             <!-- Resume button -->
+      <button class="resume-btn" id="resume-btn" onclick="openURL()">
+        <div class="sign">
+          <svg viewBox="0 0 640 512">
+            <path
+              d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+          </svg>
+        </div>
+
+        <div class="text">Resume</div>
+      </button>
+          </div>
+
+          <div class="dp" data-aos="fade-up">
+            <img src="src/png/dp1.jpg" alt="Gautam Siddharth Kashyap" tabindex="0" aria-label="image of gautam" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    
+
+    <section class="education-section-container" id="education">
+  <div class="section-heading" data-aos="fade-up">
+    <h2 class="section-heading-article" tabindex="0" aria-label="My Education starts from here">
+      &#60;/Education&#62;
+    </h2>
+    <p class="sectionHeadingP"></p>
+  </div>
+
+  <!-- Reusing the same certification list styles -->
+  <div class="certification-list">
+    <!-- Education 1 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Master of Computer Applications (MCA), Jamia Hamdard, New Delhi, India
+      </h3>
+    </div>
+
+    <!-- Education 2 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        BSc Computer Science, Jamia Hamdard, New Delhi, India
+      </h3>
+    </div>
+
+    <!-- Education 3 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Certificate in Software Testing, TTE Delhi (WCSC), New Delhi, India
+      </h3>
+    </div>
+
+    <!-- Education 4 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        A-Levels/12th CBSE Board, Vandana International School, New Delhi, India
+      </h3>
+    </div>
+
+    <!-- Education 5 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        O-Levels/10th CBSE Board, Vandana International School, New Delhi, India
+      </h3>
+    </div>
+  </div>
+</section>
+
+
+    
+
+<section class="experience-section-container" id="experience">
+  <div class="section-heading" data-aos="fade-up">
+    <h2 class="section-heading-article" tabindex="0" aria-label="Experience">
+      &#60;/Experience&#62;
+    </h2>
+    <p class="sectionHeadingP"></p>
+  </div>
+
+  <!-- Reusing the same certification list for Experience items -->
+  <div class="certification-list">
+    <!-- Experience 1 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Research Assistant, Tech Mahindra (Americas) Inc., Texas, USA - (Remotely)
+      </h3>
+    </div>
+    
+    <!-- Experience 2 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Research Assistant, Microsoft Inc., Texas, USA - (Remotely)
+      </h3>
+    </div>
+    
+    <!-- Experience 3 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Research Assistant, IIIT Delhi, New Delhi, India - (Full Time)
+      </h3>
+    </div>
+    
+    <!-- Experience 4 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Freelance Researcher, Upwork
+      </h3>
+    </div>
+    
+    <!-- Experience 5 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Research Assistant, University of Stirling, Stirling, UK - (Remotely)
+      </h3>
+    </div>
+    
+    <!-- Experience 6 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Intern Computer Programmer, Grahlaxmi International, New Delhi, India - (Part-time)
+      </h3>
+    </div>
+    
+    <!-- Experience 7 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Intern Web Developer, Recon AppMagic Pvt. Ltd, New Delhi, India - (Full-time)
+      </h3>
+    </div>
+  </div>
+</section>
+
+   
+   <section class="certifications-section" id="publications-dropdown">
+  <!-- Section Heading -->
+  <div class="section-heading" data-aos="fade-up">
+    <h2 class="section-heading-article" tabindex="0" aria-label="publications menu">
+      &#60;/Publications&#62;
+    </h2>
+    <p class="sectionHeadingP"></p>
+  </div>
+
+  <!-- Dropdown List -->
+  <div class="certification-list">
+    <!-- SCI‑Indexed -->
+    <div class="pub-box" data-aos="fade-up">
+      <h3 class="certification-title" id="SCI-Indexed">
+        SCI‑Indexed
+      </h3>
+      <ol>
+        <li>
+          Liyun Gong, Pandey Shourya Prasad, Chan Chi Leung, Gautam Siddharth Kashyap, Syed Waqar Ahmed, Ayush Singh, Shina Samuel Kolawole, Ifeoma Ochi, Miao Yu, Saeid Pourroostaei Ardakani, Ross Clifford and Xujiong Ye, Innovative Spatial-Temporal Attention Network (STAN) for Skeleton-Based Timed-Up-and-Go Analysis to Stratify Lower Back Pain Severity with Monocular RGB Camera, IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE), 2024 (Under Review).
+        </li>
+        <li>
+          Gautam Siddharth Kashyap, Md Tabrez Nafis, and Samar Wazir, Optimizing Artificial Neural Network Training using Metaheuristics: A Comparative Study of Particle Swarm Optimization, Genetic Algorithms, and Particle Swarm Optimization-Stochastic Gradient Descent, Sadhana (Springer), 2024 (Under Review).
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Karan Malik, Samar Wazir, and Alexender E.I. Brownlee, Optimization of the rectangle area inside a concave polygon using PSO and Tabu Search, Soft Computing (Springer), 2024 (Under Review).
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Deepakshi Mahajan, Orchid Chetia Phukan, Ankit Kumar, Alexender E.I. Brownlee, and Jiechao Gao, From Simulations to Reality: Enhancing Multi-Robot Exploration for Urban Search and Rescue, Journal of Supercomputing (Springer), 2023 (Under Review). Available at <a href="https://arxiv.org/abs/2311.16958" target="_blank">https://arxiv.org/abs/2311.16958</a> (Preprint).
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Karan Malik, Samar Wazir, and Rizwan Khan, “Using Machine Learning to Quantify the Multimedia Risk Due to Fuzzing,” Multimedia Tools and Applications (Springer), 2021. <a href="https://doi.org/10.1007/s11042-021-11558-9" target="_blank">https://doi.org/10.1007/s11042-021-11558-9</a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- ESCI‑Indexed -->
+    <div class="pub-box" data-aos="fade-up">
+      <h3 class="certification-title" id="ESCI-Indexed">
+        ESCI‑Indexed
+      </h3>
+      <ol>
+        <li>
+          Pravneet Kaur, Gautam Siddharth Kashyap*, Ankit Kumar, Md Tabrez Nafis, Sandeep Kumar, and Vikrant Shokeen, From Text to Transformation: A Comprehensive Review of Large Language Models' Versatility, Discover Sustainability (Springer), 2024 (Under Review). Available at <a href="https://arxiv.org/abs/2402.16142" target="_blank">https://arxiv.org/abs/2402.16142</a> (Preprint).
+        </li>
+        <li>
+          Samar Wazir, Gautam Siddharth Kashyap*, and Parag Saxena, MLOps: A review, Discover Sustainability (Springer), 2023 (Under Review). Available at <a href="https://arxiv.org/abs/2308.10908" target="_blank">https://arxiv.org/abs/2308.10908</a> (Preprint).
+        </li>
+        <li>
+          Fares Alharbi, Gautam Siddharth Kashyap*, and Budoor Allehyani, Automated Ruleset Generation for HTTPS Everywhere: Challenges, Implementation, and Insights, International Journal of Information Security and Privacy (IGI Global), 2024. <a href="http://doi.org/10.4018/IJISP.347330" target="_blank">http://doi.org/10.4018/IJISP.347330</a>
+        </li>
+        <li>
+          Fares Alharbi, and Gautam Siddharth Kashyap*, Empowering Network Security through Advanced Analysis of Malware Samples: Leveraging System Metrics and Network Log Data for Informed Decision-Making, International Journal of Networked and Distributed Computing (Springer), 2024. <a href="https://doi.org/10.1007/s44227-024-00032-1" target="_blank">https://doi.org/10.1007/s44227-024-00032-1</a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- SCOPUS‑Indexed -->
+    <div class="pub-box" data-aos="fade-up">
+      <h3 class="certification-title" id="SCOPUS-Indexed">
+        SCOPUS‑Indexed
+      </h3>
+      <ol>
+        <li>
+          Malvika Kanojia, Prerna Kamani, Gautam Siddharth Kashyap*, Shafaq Naz, Samar Wazir, and Abhishek Chauhan, Alternative Agriculture Land-Use Transformation Pathways by Partial-Equilibrium Agricultural Sector Model: A Mathematical Approach, International Journal of Information Technology (Springer), 2024. <a href="https://doi.org/10.1007/s41870-024-02158-5" target="_blank">https://doi.org/10.1007/s41870-024-02158-5</a>
+        </li>
+        <li>
+          Shafaq Naz, and Gautam Siddharth Kashyap*, Enhancing the Predictive Capability of a Mathematical Model for Pseudomonas Aeruginosa through Artificial Neural Networks, International Journal of Information Technology (Springer), 2024. <a href="https://doi.org/10.1007/s41870-023-01721-w" target="_blank">https://doi.org/10.1007/s41870-023-01721-w</a>
+        </li>
+        <li>
+          Nirmal Marwah, Vivek Kumar Singh, Gautam Siddharth Kashyap*, and Samar Wazir, An analysis of the robustness of UAV agriculture field coverage using multi-agent reinforcement learning, International Journal of Information Technology (Springer), 2023. <a href="https://doi.org/10.1007/s41870-023-01264-0" target="_blank">https://doi.org/10.1007/s41870-023-01264-0</a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Book Chapters -->
+    <div class="pub-box" data-aos="fade-up">
+      <h3 class="certification-title" id="Book-Chapters">
+        Book Chapters
+      </h3>
+      <ol>
+        <li>
+          Gautam Siddharth Kashyap*, Karan Malik, Samar Wazir, and Alexander E.I. Brownlee, Vehicle routing optimization for supply chain management system solved using the RWPSO approach, Optimization and Data Science in Supply Chain and Logistics: Towards Operational and Business Excellence (Volume 2) (Springer), 2024 (Under Review). Available at <a href="https://arxiv.org/abs/2306.02308" target="_blank">https://arxiv.org/abs/2306.02308</a> (Preprint).
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Jatin Sohlot, Ayesha Siddiqui, Ramsha Siddiqui, Karan Malik, Samar Wazir, and Alexander E.I. Brownlee, Detection of facemask using deep learning methods: prevention of covid-19, Research Advances in Network Technologies (Volume 2) (CRC Press Taylor and Francis), 2024. <a href="https://doi.org/10.1201/9781003433958-11" target="_blank">https://doi.org/10.1201/9781003433958-11</a>
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Ayesha Siddiqui, Ramsha Siddiqui, Karan Malik, Samar Wazir, and Alexander E.I. Brownlee, Prediction of suicidal risk using machine learning models, Research Advances in Intelligent Computing (Volume 2) (CRC Press Taylor and Francis), 2024. <a href="https://doi.org/10.1201/9781003433941-11" target="_blank">https://doi.org/10.1201/9781003433941-11</a>
+        </li>
+        <li>
+          Gautam Siddharth Kashyap*, Prerna Kamani, Malvika Kanojia, Samar Wazir, Karan Malik, Vinay Kumar Sehgal, and Rajkumar Dhakar, Revolutionizing Agriculture: A Comprehensive Review of Artificial Intelligence Techniques in Farming, Research Advances in Intelligent Computing (Volume 2) (CRC Press Taylor and Francis), 2024. <a href="https://doi.org/10.1201/9781003433941-6" target="_blank">https://doi.org/10.1201/9781003433941-6</a>
+        </li>
+        <li>
+          Samar Wazir, Gautam Siddharth Kashyap*, Karan Malik, and Alexander E.I. Brownlee, Predicting the Infection level of Covid-19 Virus Using Normal Distribution Based Approximation Model, Mathematical Modelling and Intelligent Control for Combating Pandemics (Springer), 2023. <a href="https://doi.org/10.1007/978-3-031-33183-1_5" target="_blank">https://doi.org/10.1007/978-3-031-33183-1_5</a>
+        </li>
+        <li>
+          Honey Habib, Gautam Siddharth Kashyap, Nazia Tabassum, and Md Tabrez Nafis, Stock Price Prediction using Artificial Intelligence based LSTM-Deep Learning Model, Artificial Intelligence and Blockchain in Cyber Physical Systems (CRC Press Taylor and Francis), 2023. <a href="https://doi.org/10.1201/9781003190301-6" target="_blank">https://doi.org/10.1201/9781003190301-6</a>
+        </li>
+
+      </ol>
+    </div>
+
+    <!-- Peer Reviewed Conferences -->
+    <div class="pub-box" data-aos="fade-up">
+      <h3 class="certification-title" id="Peer-Reviewed-Conferences">
+        Peer Reviewed Conferences
+      </h3>
+      <ol>
+        <li>
+          Liyun Gong, Miao Yu, Gautam Siddharth Kashyap, Sheldon Mccall, James Brown and Xujiong Ye, Innovate Spatial-Temporal Attention Network (STAN) for Accurate 3D Mice Pose Estimation with a Single Monocular RGB Camera, EUSIPCO (IEEE), 2024, Lyon, France. (Core Rank B). <a href="https://eurasip.org/Proceedings/Eusipco/Eusipco2024/pdfs/0000616.pdf" target="_blank">PDF</a>
+        </li>
+        <li>
+          Orchid Chetia Phukan, Gautam Siddharth Kashyap, Arun Balaji Buduru and Rajesh Sharma, Are Paralinguistic Representations all that is needed for Speech Emotion Recognition?, Interspeech, 2024, Kos Island, Greece (Core Rank A). <a href="https://doi.org/10.21437/interspeech.2024-2233" target="_blank">DOI</a>
+        </li>
+        <li>
+          Orchid Chetia Phukan, Gautam Siddharth Kashyap, Arun Balaji Buduru and Rajesh Sharma, Exploring Multilingual Pre-Trained Model Embeddings for Audio Deepfake, NAACL Findings, 2024, Mexico City, Mexico. (Core Rank A). <a href="https://doi.org/10.18653/v1/2024.findings-naacl.160" target="_blank">DOI</a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+    <section class="reviewer-section-container" id="reviewer">
+  <div class="section-heading" data-aos="fade-up">
+    <h2 class="section-heading-article" tabindex="0" aria-label="Reviewer">
+      &#60;/Reviewer&#62;
+    </h2>
+    <p class="sectionHeadingP"></p>
+  </div>
+
+  <!-- Reusing the same certification list structure -->
+  <div class="certification-list">
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Journal of Big Data (Springer, SCI Indexed, IF = 10.835)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Complex &amp; Intelligent Systems (Springer, SCI Indexed, IF = 6.700)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        International Journal of Machine Learning and Cybernatics (Springer, SCI Indexed, IF = 6.400)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        BMC Medical Informatics and Decision Making (Springer, SCI Indexed, IF = 3.500)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        International Journal of Information Security (Springer, SCI Indexed, IF = 3.200)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        The Journal of Supercomputing (Springer, SCI Indexed, IF = 2.557)
+      </h3>
+    </div>
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Intelligent Systems with Applications (Elsevier, Scopus Indexed)
+      </h3>
+    </div>
+  </div>
+</section>
+
+    <section class="certifications-section" id="Certification">
+  <!-- Section Heading -->
+  <div class="section-heading" data-aos="fade-up">
+    <h2 class="section-heading-article" tabindex="0" aria-label="Certifications heading">
+      &#60;/Certifications&#62;
+    </h2>
+    <p class="sectionHeadingP"></p>
+  </div>
+
+  <!-- List of Certification Boxes -->
+  <div class="certification-list">
+    <!-- Certification 1 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Neural Networks and Deep Learning (June 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 2 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Supervised Machine Learning: Regression and Classification (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 3 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Programming for Everybody (University of Michigan) (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 4 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Python Data Structures (University of Michigan) (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 5 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Using Databases with Python (University of Michigan) (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 6 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Using Python to Access Web Data (University of Michigan) (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 7 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Coursera Certificate – Capstone: Retrieving, Processing and Visualizing Data with Python (May 2023)
+      </h3>
+    </div>
+
+    <!-- Certification 8 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Certificate for the Completion of Python Training, Spoken Tutorial IIT Bombay, New Delhi, India (February 2022)
+      </h3>
+    </div>
+
+    <!-- Certification 9 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Certificate of Participation for C and CPP, Spoken Tutorial IIT Bombay, New Delhi, India (March 2019)
+      </h3>
+    </div>
+
+    <!-- Certification 10 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        Training Certificate in English for Employability, British Council, New Delhi, India (Spring 2018)
+      </h3>
+    </div>
+
+    <!-- Certification 11 -->
+    <div class="certification-box" data-aos="fade-up">
+      <h3 class="certification-title">
+        PHP Workshop Certificate, APTRON, New Delhi, India (October 2018)
+      </h3>
+    </div>
+  </div>
+</section>
+    <section class="honours&awards-section-container" id="honours&awards">
+  <div class="honours&awards-section">
+    <div class="section-heading" data-aos="fade-up">
+      <h2 class="section-heading-article" tabindex="0" aria-label="Honors and Awards heading">
+        &#60;/Honors &amp; Awards&#62;
+      </h2>
+      <p class="sectionHeadingP"></p>
+    </div>
+
+    <div class="certification-list">
+      <!-- Honor 1 -->
+      <div data-aos="fade-up" class="certification-box">
+        <h3 class="certification-title">
+          Certificate of Participation in International Equanimity Olympiad – 2015
+        </h3>
+      </div>
+
+      <!-- Honor 2 -->
+      <div data-aos="fade-up" class="certification-box">
+        <h3 class="certification-title">
+          Smart Kid General Knowledge Olympiad – 2011 (State Rank -212, All India Rank 1393)
+        </h3>
+      </div>
+
+      <!-- Honor 3 -->
+      <div data-aos="fade-up" class="certification-box">
+        <h3 class="certification-title">
+          Bronze Medal (Academics) – Delhi English Academy School, New Delhi, India – 2009
+        </h3>
+      </div>
+
+      <!-- Honor 4 -->
+      <div data-aos="fade-up" class="certification-box">
+        <h3 class="certification-title">
+          Certificate of Participation in Painting Competition – 2008, 2009
+        </h3>
+      </div>
+
+      <!-- Honor 5 -->
+      <div data-aos="fade-up" class="certification-box">
+        <h3 class="certification-title">
+          Silver Medal (Sports) – Greenway Modern School, New Delhi, India – 2005
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+  <!-- main ends here -->
+
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="social-media-container">
+          
+          <div class="logos">
+            <a href="https://www.instagram.com/gskgautam/" target="_blank" tabindex="0"
+              aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg></a>
+
+            <a href="https://www.linkedin.com/in/gautam-kashyap-48021b159/" target="_blank"
+              aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg></a>
+
+            <a href="https://github.com/gskgautam" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
+                class="SocialHandle">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg></a>
+
+            <a href="mailto:gautamgsk.gsk@gmail.com" target="_blank" aria-label="My G mail"><svg id="GmailLogo"
+                viewBox="0 0 512 512">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg></a>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <article>
+            Design & Built by Gautam Siddharth Kashyap
+            &#169; twentytwentyfive
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    function openURL() {
+      var url = "src/pdf/CV1_GSK.pdf";
+
+      window.open(url, "_blank");
+    }
+  </script>
+
+  <script>
+    const cursorInner = document.getElementById("cursor-inner");
+    const cursorOuter = document.getElementById("cursor-outer");
+    const links = document.querySelectorAll("a,label,button");
+
+    document.addEventListener("mousemove", function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorInner.style.left = `${posX}px`;
+      cursorInner.style.top = `${posY}px`;
+
+      // cursorOuter.style.left = `${posX}px`;
+      // cursorOuter.style.top = `${posY}px`;
+
+      cursorOuter.animate(
+        {
+          left: `${posX}px`,
+          top: `${posY}px`,
+        },
+        { duration: 500, fill: "forwards" }
+      );
+
+      links.forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+          cursorInner.classList.add("hover");
+          cursorOuter.classList.add("hover");
+        });
+        link.addEventListener("mouseleave", () => {
+          cursorInner.classList.remove("hover");
+          cursorOuter.classList.remove("hover");
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
